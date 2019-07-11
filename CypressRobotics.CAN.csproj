@@ -4,6 +4,23 @@
     <TargetFramework>netstandard2.0</TargetFramework>
     <Platforms>AnyCPU;x64;x86</Platforms>
     <Configurations>Debug;Release;Remote Debug</Configurations>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
+    <PackageProjectUrl>https://github.com/CypressControls/CypressRobotics.CAN</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/CypressControls/CypressRobotics.CAN</RepositoryUrl>
+    <PackageTags>can-bus</PackageTags>
+    <PackageReleaseNotes>Initial release to NuGet</PackageReleaseNotes>
+    <Authors>Tylor Pater</Authors>
+    <Company>Cypress Robotics Corporation</Company>
+    <Copyright>(C) 2019 Cypress Robotics Corporation</Copyright>
+    <Description>CAN wrapper library for different CAN-based adapters/libraries</Description>
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="LICENSE.txt">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+  </ItemGroup>
 
 </Project>
